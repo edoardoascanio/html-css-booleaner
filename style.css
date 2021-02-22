@@ -1,18 +1,33 @@
-
 header{
     height:120px;
     background-color: #5c9aff;
     background-image: url(img/pattern.png);
     background-size: 30%;
-    position: relative;
-    
-
-    
+    position: relative;        
 }
 
-header img{
+.logo{
     width: 15%;
     position: absolute;
     top: 50px;
     left: 150px;
+}
+
+main{
+    width: 1200px;
+    margin: auto;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.caption{
+    font-size: 25px;
+    color: gray;
+}
+
+.name{
+    font-size: 25px;
+    color: #5c9aff;
 }
