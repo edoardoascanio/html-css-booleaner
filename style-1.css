@@ -1,0 +1,118 @@
+header{
+    height:120px;
+    background-color: aqua;
+    background-image: url(img/pattern.png);
+    background-size: 30%;
+    position: relative;        
+}
+
+.logo{
+    width: 15%;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+main{
+    width: 1200px;
+    margin: auto;
+}
+
+.title{
+    width: 1000px;
+    font-size: 25px;
+}
+
+.subtitle{
+    font-size: 20px;
+    color: gray;
+}
+
+.name{
+    font-size: 20px;
+    color: blue;
+}
+
+.foto-tim{
+    margin-top: 50px;
+}
+
+.caption{
+    font-size: 12px;
+}
+
+.p1, .p2{
+    margin-top: 50px;
+}
+
+.underline{
+    background-color: blue;
+    color: white;
+    margin: 0;
+}
+
+.list{
+    margin-top: 50px;
+}
+
+
+.title-table{
+    background-color: blue;
+    color: white;
+    margin-top: 50px;
+   }
+  
+  .tablerow, .tablerow3{
+    background-color: aqua;
+    position: relative;
+  }
+  
+  .tablerow2{
+    background-color: magenta;
+    position: relative;
+  }
+
+  .titleleft, .titlecenter, .titleright{
+    display: inline-block;
+    width: 33%;
+  }
+
+  .rowleft, .rowcenter, .rowright{
+    display: inline-block;
+    width: 33%;
+  }
+  
+.text{
+    position: absolute;
+    top: 50%;
+}
+
+footer{
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.foto-footer1{
+    width: 300px;
+    height: 200px;
+    background-image: url(img/monitor.jpg);
+    margin-top: 10px;
+    position: relative;
+}
+     
+.foto-footer2{
+    width: 300px;
+    height: 200px;
+    background-image: url(img/graph.jpg);
+    margin-top: 10px;
+    position: relative;
+}
+
+.text-foto{
+    color: yellow;
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
