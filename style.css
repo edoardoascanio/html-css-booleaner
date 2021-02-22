@@ -49,3 +49,35 @@ main{
 .list{
     margin-top: 50px;
 }
+
+
+.title-table{
+    background-color: #5c9aff;
+    color: white;
+    margin-top: 50px;
+   }
+  
+  .tablerow, .tablerow3{
+    background-color: lightblue;
+    position: relative;
+  }
+  
+  .tablerow2{
+    background-color: white;
+    position: relative;
+  }
+
+  .titleleft, .titlecenter, .titleright{
+    display: inline-block;
+    width: 33%;
+  }
+
+  .rowleft, .rowcenter, .rowright{
+    display: inline-block;
+    width: 33%;
+  }
+  
+.text{
+    position: absolute;
+    top: 50%;
+}
