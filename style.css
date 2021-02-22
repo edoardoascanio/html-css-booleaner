@@ -19,15 +19,21 @@ main{
 }
 
 .title{
+    width: 1000px;
     font-size: 25px;
 }
 
 .caption{
-    font-size: 25px;
+    font-size: 20px;
     color: gray;
 }
 
 .name{
-    font-size: 25px;
+    font-size: 20px;
     color: #5c9aff;
+}
+
+.foto-tim{
+    margin-top: 50px;
+
 }
