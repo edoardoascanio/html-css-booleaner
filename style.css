@@ -85,3 +85,33 @@ main{
     position: absolute;
     top: 50%;
 }
+
+footer{
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.foto-footer1{
+    width: 300px;
+    height: 200px;
+    background-image: url(img/monitor.jpg);
+    margin-top: 10px;
+    position: relative;
+}
+     
+.foto-footer2{
+    width: 300px;
+    height: 200px;
+    background-image: url(img/graph.jpg);
+    margin-top: 10px;
+    position: relative;
+}
+
+.text-foto{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
