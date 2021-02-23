@@ -54,37 +54,28 @@ main{
     margin-top: 50px;
 }
 
+table{
+    margin-top: 50px;
+}
 
-.title-table{
+thead{
+    width: 100%;
     background-color: #5c9aff;
     color: white;
     margin-top: 50px;
    }
-  
-  .tablerow, .tablerow3{
+
+#external-row{
     background-color: lightblue;
-    position: relative;
-  }
-  
-  .tablerow2{
-    background-color: white;
-    position: relative;
-  }
-
-  .titleleft, .titlecenter, .titleright{
-    display: inline-block;
-    width: 33%;
-  }
-
-  .rowleft, .rowcenter, .rowright{
-    display: inline-block;
-    width: 33%;
-  }
-  
-.text{
-    position: absolute;
-    top: 50%;
 }
+  
+.row-right{
+    width: 50%;
+  }
+  
+#center-row{
+    background-color: white;
+  }
 
 footer{
     width: 1200px;
@@ -92,19 +83,19 @@ footer{
     margin-top: 50px;
 }
 
-.foto-footer1{
+#foto-footer1{
     width: 300px;
     height: 200px;
     background-image: url(img/monitor.jpg);
-    margin-top: 10px;
+    margin-top: 30px;
     position: relative;
 }
      
-.foto-footer2{
+#foto-footer2{
     width: 300px;
     height: 200px;
     background-image: url(img/graph.jpg);
-    margin-top: 10px;
+    margin-top: 30px;
     position: relative;
 }
 
